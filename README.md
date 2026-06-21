@@ -33,7 +33,7 @@ Linux/Windows:
 
 1. 克隆仓库：
 ```bash
-git clone --recurse-submodules https://github.com/jsalessandro/lesshash.git
+git clone --recurse-submodules https://github.com/lesshash/lesshash.git
 cd lesshash
 ```
 
@@ -72,20 +72,20 @@ summary: "文章摘要"
 ### 步骤 1: 创建 GitHub 仓库
 
 1. 在 GitHub 创建一个新仓库
-2. 仓库名称可以是 `jsalessandro.github.io`（用户页面）或任意名称（项目页面）
+2. 仓库名称可以是 `lesshash.github.io`（用户页面）或任意名称（项目页面）
 
 ### 步骤 2: 配置仓库
 
 1. 修改 `hugo.yaml` 中的 `baseURL`：
-   - 用户页面: `https://jsalessandro.github.io/`
-   - 项目页面: `https://jsalessandro.github.io/repo-name/`
+   - 用户页面: `https://lesshash.github.io/`
+   - 项目页面: `https://lesshash.github.io/repo-name/`
 
 2. 推送代码到 GitHub：
 ```bash
 git add .
 git commit -m "Initial commit"
 git branch -M main
-git remote add origin https://github.com/jsalessandro/lesshash.git
+git remote add origin https://github.com/lesshash/lesshash.git
 git push -u origin main
 ```
 
@@ -95,8 +95,8 @@ git push -u origin main
 2. Source 选择 "GitHub Actions"
 3. 等待 Actions 运行完成
 4. 访问你的网站：
-   - 用户页面: `https://jsalessandro.github.io`
-   - 项目页面: `https://jsalessandro.github.io/lesshash`
+   - 用户页面: `https://lesshash.github.io`
+   - 项目页面: `https://lesshash.github.io/lesshash`
 
 ## 自定义配置
 
@@ -174,4 +174,4 @@ MIT License
 ## 联系方式
 
 - Email: your-email@example.com
-- GitHub: https://github.com/jsalessandro
+- GitHub: https://github.com/lesshash

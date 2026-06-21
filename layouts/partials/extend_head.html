@@ -315,7 +315,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const isResumePage = window.location.pathname.includes('/resume') || document.querySelector('.resume') || document.title.toLowerCase().includes('简历');
 
     // 基础水印文字
-    const watermarkTexts = ['jsalessandro', '@jsalessandro', 'jsalessandro.com', 'lesshash.com'];
+    const watermarkTexts = ['lesshash', '@lesshash', 'lesshash.com', 'lesshash.com'];
 
     // 根据页面类型设置不同的水印密度
     let positions = [];
@@ -415,7 +415,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             contentPositions.forEach((pos, index) => {
                 const contentTextEl = document.createElement('div');
-                contentTextEl.textContent = 'jsalessandro';
+                contentTextEl.textContent = 'lesshash';
                 contentTextEl.style.cssText = `
                     position: absolute;
                     top: ${pos.top};
@@ -442,7 +442,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const style = document.createElement('style');
     style.textContent = `
         .watermark::before {
-            content: "jsalessandro" !important;
+            content: "lesshash" !important;
             position: absolute !important;
             top: 50% !important;
             left: 50% !important;
@@ -462,7 +462,7 @@ document.addEventListener('DOMContentLoaded', function() {
         /* 文章页面额外水印样式 */
         ${isArticlePage || isResumePage ? `
         .watermark::after {
-            content: "© jsalessandro" !important;
+            content: "© lesshash" !important;
             position: absolute !important;
             top: 25% !important;
             left: 25% !important;
@@ -587,7 +587,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }, 1000);
 
-    console.log('网络水印和防复制功能已启用 - jsalessandro');
+    console.log('网络水印和防复制功能已启用 - lesshash');
 });
 } // 水印功能禁用结束
 
@@ -608,7 +608,7 @@ let devtools = {open: false, orientation: null};
             if (!devtools.open) {
                 devtools.open = true;
                 console.clear();
-                console.log('%c网站内容受版权保护 - jsalessandro', 'color: red; font-size: 20px; font-weight: bold;');
+                console.log('%c网站内容受版权保护 - lesshash', 'color: red; font-size: 20px; font-weight: bold;');
             }
         } else {
             devtools.open = false;

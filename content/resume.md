@@ -4,8 +4,8 @@ date: 2025-01-18
 draft: false
 layout: "single"
 url: "/resume/"
-description: "jsalessandro的个人简历 - 高级系统分析师，18年后端开发经验，精通Java、C++和系统架构设计"
-keywords: ["简历", "系统分析师", "后端开发", "Java", "C++", "架构设计", "jsalessandro"]
+description: "lesshash的个人简历 - 高级系统分析师，18年后端开发经验，精通Java、C++和系统架构设计"
+keywords: ["简历", "系统分析师", "后端开发", "Java", "C++", "架构设计", "lesshash"]
 ---
 
 <div align="right" style="font-size: 1.2em; margin-bottom: 20px;">
@@ -14,11 +14,11 @@ keywords: ["简历", "系统分析师", "后端开发", "Java", "C++", "架构�
   <span style="font-size: 1.3em; font-weight: bold;">中文</span>
 </div>
 
-# 🎯 jsalessandro
+# 🎯 lesshash
 
 > **高级系统分析师 & 资深架构专家**
-> 📧 jsalessandro@gmail.com | 📱 138-0000-0000 | 📍 北京
-> 🌐 GitHub: [github.com/jsalessandro](https://github.com/jsalessandro) | 📝 博客: [blog.lesshash.com](https://blog.lesshash.com)
+> 📧 lesshash@gmail.com | 📱 138-0000-0000 | 📍 北京
+> 🌐 GitHub: [github.com/lesshash](https://github.com/lesshash) | 📝 博客: [blog.lesshash.com](https://blog.lesshash.com)
 
 ---
 
@@ -342,7 +342,7 @@ keywords: ["简历", "系统分析师", "后端开发", "Java", "C++", "架构�
 
 ### 💻 **开源贡献**
 
-**🌙 GitHub**: [`github.com/jsalessandro`](https://github.com/jsalessandro)
+**🌙 GitHub**: [`github.com/lesshash`](https://github.com/lesshash)
 
 | 📊 统计项 | 🔢 数量/成果 | 💡 影响力 |
 |--------|------------|----------|
@@ -360,7 +360,7 @@ keywords: ["简历", "系统分析师", "后端开发", "Java", "C++", "架构�
 
 ### 🤝 **社交媒体与影响力**
 
-- 🌍 **LinkedIn**: [`linkedin.com/in/jsalessandro`](https://linkedin.com/in/jsalessandro) - 国际技术交流平台
+- 🌍 **LinkedIn**: [`linkedin.com/in/lesshash`](https://linkedin.com/in/lesshash) - 国际技术交流平台
 - 🗺️ **知乎**: 技术专栏作者，**关注者5000+**，专注后端技术分享
 - 📢 **技术影响力**: 在多个技术社区活跃，帮助开发者解决技术难题
 
@@ -413,8 +413,8 @@ keywords: ["简历", "系统分析师", "后端开发", "Java", "C++", "架构�
 > **🎆 简历更新**: *2025年1月* | **💼 合作态度**: 期待加入有技术追求的优秀团队
 
 ### 📧 直接联系
-- **📧 邮箱**: jsalessandro@gmail.com
-- **📱 微信**: jsalessandro
+- **📧 邮箱**: lesshash@gmail.com
+- **📱 微信**: lesshash
 - **📞 电话**: 138-0000-0000
 - **📍 地点**: 北京
 

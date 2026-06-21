@@ -94,8 +94,8 @@ description: "关于lesshash技术博客的详细介绍"
 
 ## 📞 联系方式
 
-- **GitHub**: [jsalessandro](https://github.com/jsalessandro)
-- **邮箱**: jsalessandro@gmail.com
+- **GitHub**: [lesshash](https://github.com/lesshash)
+- **邮箱**: lesshash@gmail.com
 
 ## 🔄 更新计划
 

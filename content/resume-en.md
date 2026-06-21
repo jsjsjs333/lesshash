@@ -4,8 +4,8 @@ date: 2025-01-18
 draft: false
 layout: "single"
 url: "/resume-en/"
-description: "jsalessandro's Resume - Senior System Analyst with 18 years of backend development experience, proficient in Java, C++, and system architecture design"
-keywords: ["resume", "system analyst", "backend development", "Java", "C++", "architecture design", "jsalessandro"]
+description: "lesshash's Resume - Senior System Analyst with 18 years of backend development experience, proficient in Java, C++, and system architecture design"
+keywords: ["resume", "system analyst", "backend development", "Java", "C++", "architecture design", "lesshash"]
 ---
 
 <div align="right" style="font-size: 1.2em; margin-bottom: 20px;">
@@ -14,11 +14,11 @@ keywords: ["resume", "system analyst", "backend development", "Java", "C++", "ar
   <a href="/resume/" style="font-size: 1.3em; font-weight: bold;">中文</a>
 </div>
 
-# 🎯 jsalessandro
+# 🎯 lesshash
 
 > **Senior System Analyst & Architecture Expert**
-> 📧 jsalessandro@gmail.com | 📱 138-0000-0000 | 📍 Beijing, China
-> 🌐 GitHub: [github.com/jsalessandro](https://github.com/jsalessandro) | 📝 Blog: [blog.lesshash.com](https://blog.lesshash.com)
+> 📧 lesshash@gmail.com | 📱 138-0000-0000 | 📍 Beijing, China
+> 🌐 GitHub: [github.com/lesshash](https://github.com/lesshash) | 📝 Blog: [blog.lesshash.com](https://blog.lesshash.com)
 
 ---
 
@@ -342,7 +342,7 @@ keywords: ["resume", "system analyst", "backend development", "Java", "C++", "ar
 
 ### 💻 **Open Source Contributions**
 
-**🌙 GitHub**: [`github.com/jsalessandro`](https://github.com/jsalessandro)
+**🌙 GitHub**: [`github.com/lesshash`](https://github.com/lesshash)
 
 | 📊 Metric | 🔢 Quantity/Achievement | 💡 Influence |
 |--------|------------|----------|
@@ -360,7 +360,7 @@ keywords: ["resume", "system analyst", "backend development", "Java", "C++", "ar
 
 ### 🤝 **Social Media & Influence**
 
-- 🌍 **LinkedIn**: [`linkedin.com/in/jsalessandro`](https://linkedin.com/in/jsalessandro) - International technical exchange platform
+- 🌍 **LinkedIn**: [`linkedin.com/in/lesshash`](https://linkedin.com/in/lesshash) - International technical exchange platform
 - 🗺️ **Zhihu**: Technical columnist, **5000+ followers**, focused on backend technology sharing
 - 📢 **Technical Influence**: Active in multiple tech communities, helping developers solve technical challenges
 
@@ -413,8 +413,8 @@ keywords: ["resume", "system analyst", "backend development", "Java", "C++", "ar
 > **🎆 Resume Updated**: *January 2025* | **💼 Collaboration Attitude**: Looking forward to joining excellent teams with technical pursuits
 
 ### 📧 Direct Contact
-- **📧 Email**: jsalessandro@gmail.com
-- **📱 WeChat**: jsalessandro
+- **📧 Email**: lesshash@gmail.com
+- **📱 WeChat**: lesshash
 - **📞 Phone**: 138-0000-0000
 - **📍 Location**: Beijing, China
 

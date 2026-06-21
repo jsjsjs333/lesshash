@@ -102,7 +102,7 @@ params:
     twitter: ""
     facebook: ""
     linkedin: ""
-    github: "jsalessandro"
+    github: "lesshash"
 
   # 网站统计配置
   analytics:
@@ -157,9 +157,9 @@ params:
   # 社交链接
   socialIcons:
     - name: github
-      url: "https://github.com/jsalessandro"
+      url: "https://github.com/lesshash"
     - name: email
-      url: "mailto:jsalessandro@gmail.com"
+      url: "mailto:lesshash@gmail.com"
 
   # 搜索配置
   fuseOpts:
