@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><title>Bevan - 个人简历</title>
+<style>
+@font-face {
+    font-family: "NotoSansCJK";
+    src: url("file:///home/rjzhou/.fonts/NotoSansSC-Regular.otf");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "NotoSansCJK";
+    src: url("file:///home/rjzhou/.fonts/NotoSansSC-Bold.otf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Emoji";
+    src: url("file:///home/rjzhou/.fonts/NotoColorEmoji.ttf");
+}
+@page {
+    size: A4;
+    margin: 18mm 16mm;
+    @bottom-center {
+        content: counter(page) " / " counter(pages);
+        font-size: 9px;
+        color: #999;
+    }
+}
+* { box-sizing: border-box; }
+body {
+    font-family: "NotoSansCJK", "Emoji", sans-serif;
+    font-size: 10.5pt;
+    line-height: 1.6;
+    color: #222;
+}
+h1 {
+    font-size: 20pt;
+    color: #1a3c6e;
+    border-bottom: 2.5px solid #1a3c6e;
+    padding-bottom: 6px;
+    margin: 18px 0 12px;
+    prince-bookmark-level: 1;
+}
+h2 {
+    font-size: 14pt;
+    color: #1a3c6e;
+    border-left: 5px solid #1a3c6e;
+    padding-left: 9px;
+    margin: 16px 0 8px;
+    prince-bookmark-level: 2;
+}
+h3 {
+    font-size: 12pt;
+    color: #2c538b;
+    margin: 12px 0 6px;
+    prince-bookmark-level: 3;
+}
+h4 { font-size: 11pt; color: #333; margin: 10px 0 5px; }
+p { margin: 6px 0; }
+a { color: #1a3c6e; text-decoration: none; }
+strong { color: #111; }
+blockquote {
+    margin: 8px 0;
+    padding: 6px 12px;
+    background: #f2f6fb;
+    border-left: 4px solid #7ba3d4;
+    color: #333;
+}
+blockquote p { margin: 2px 0; }
+ul, ol { margin: 6px 0; padding-left: 22px; }
+li { margin: 3px 0; }
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px 0;
+    font-size: 9.5pt;
+}
+th, td {
+    border: 1px solid #c5d3e6;
+    padding: 5px 8px;
+    text-align: left;
+}
+th { background: #eaf1f9; color: #1a3c6e; }
+tr:nth-child(even) td { background: #f7fafd; }
+code {
+    font-family: "DejaVu Sans Mono", "NotoSansCJK", "Emoji", monospace;
+    background: #f0f0f0;
+    padding: 1px 4px;
+    border-radius: 3px;
+    font-size: 9pt;
+}
+hr { border: none; border-top: 1px solid #ccc; margin: 14px 0; }
+img { max-width: 100%; }
+div[align="right"] { text-align: right; margin: 0 0 10px; }
+</style></head>
+<body><div align="right" style="font-size: 1.2em; margin-bottom: 20px;">
+  <strong>🌍 Language: </strong>
+  <a href="/resume-en/" style="font-size: 1.3em; font-weight: bold;">English</a> |
+  <span style="font-size: 1.3em; font-weight: bold;">中文</span>
+</div>
+
+<h1>🎯 Bevan</h1>
+<blockquote>
+<p><strong>高级系统分析师 &amp; 资深架构专家</strong>
+📧 Bevan@gmail.com | 📱 138-0000-0000 | 📍 北京
+📝 博客: <a href="https://blog.lesshash.com">blog.lesshash.com</a></p>
+</blockquote>
+<hr>
+<h2>👨‍💻 个人简介</h2>
+<p><strong>资深架构专家</strong>，拥有<strong>10多年后端开发经验</strong>和<strong>10年系统架构设计分析经验</strong>。深度掌握Java生态系统（Spring Boot、Netty、MyBatis）和C++高性能框架（Brpc、Braft、Muduo），在大型分布式系统设计、微服务架构、高并发处理等领域具备丰富的实战经验。</p>
+<h3>🎯 核心优势</h3>
+<table>
+<thead>
+<tr>
+<th>领域</th>
+<th>技能描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>🚀 算法与设计</strong></td>
+<td>精通数据结构与算法，熟练运用23种GOF设计模式进行系统设计，具备复杂系统架构能力</td>
+</tr>
+<tr>
+<td><strong>🌐 网络编程</strong></td>
+<td>深入理解计算机网络原理，熟悉TCP/IP协议栈、Socket编程、NIO/Epoll高性能网络模型</td>
+</tr>
+<tr>
+<td><strong>🏗️ 工程能力</strong></td>
+<td>具备完整的软件工程能力，从需求分析到架构设计再到代码实现的全流程经验</td>
+</tr>
+<tr>
+<td><strong>📊 质量保障</strong></td>
+<td>擅长使用测试驱动开发(TDD)，通过完善的测试用例保证代码质量，测试覆盖率95%+</td>
+</tr>
+<tr>
+<td><strong>👥 团队管理</strong></td>
+<td>丰富的团队管理和项目管理经验，具备优秀的跨团队协作能力，管理过8-15人团队</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>🛠️ 核心技术栈</h2>
+<h3>🔧 后端开发技术</h3>
+<table>
+<thead>
+<tr>
+<th>🎯 技术分类</th>
+<th>💻 技术栈</th>
+<th>📊 熟练度</th>
+<th>📝 核心能力</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>编程语言</strong></td>
+<td><strong>Java</strong></td>
+<td>⭐⭐⭐⭐⭐</td>
+<td>深度掌握JVM原理、并发编程、性能调优 (10多年经验)</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>C++</strong></td>
+<td>⭐⭐⭐⭐⭐</td>
+<td>熟悉STL、模板编程、内存管理、高性能编程 (5年经验)</td>
+</tr>
+<tr>
+<td><strong>Java生态</strong></td>
+<td>Spring全家桶</td>
+<td>⭐⭐⭐⭐⭐</td>
+<td>Spring Boot、Spring Cloud、Spring Security</td>
+</tr>
+<tr>
+<td></td>
+<td>网络框架</td>
+<td>⭐⭐⭐⭐⭐</td>
+<td>Netty、Undertow、Reactor</td>
+</tr>
+<tr>
+<td></td>
+<td>ORM框架</td>
+<td>⭐⭐⭐⭐⭐</td>
+<td>MyBatis、MyBatis-Plus、JPA/Hibernate</td>
+</tr>
+<tr>
+<td></td>
+<td>消息队列</td>
+<td>⭐⭐⭐⭐⭐</td>
+<td>RocketMQ、Kafka、RabbitMQ</td>
+</tr>
+<tr>
+<td></td>
+<td>缓存技术</td>
+<td>⭐⭐⭐⭐⭐</td>
+<td>Redis、Ehcache、Caffeine</td>
+</tr>
+<tr>
+<td><strong>C++框架</strong></td>
+<td>网络库</td>
+<td>⭐⭐⭐⭐⭐</td>
+<td>Muduo、Brpc、gRPC、libevent</td>
+</tr>
+<tr>
+<td></td>
+<td>分布式</td>
+<td>⭐⭐⭐⭐</td>
+<td>Braft (Raft一致性算法)、Bfs (分布式文件系统)</td>
+</tr>
+<tr>
+<td></td>
+<td>工具链</td>
+<td>⭐⭐⭐⭐</td>
+<td>CMake、Bazel、GCC/Clang</td>
+</tr>
+</tbody>
+</table>
+<h3>🏗️ 系统架构与中间件</h3>
+<blockquote>
+<p><strong>🎯 架构设计理念</strong>: 注重高可用、高性能、可扩展的分布式系统设计</p>
+</blockquote>
+<h4>📋 架构模式</h4>
+<ul>
+<li>🚀 <strong>微服务架构</strong> - Spring Cloud、Dubbo 生态系统深度实践</li>
+<li>🌐 <strong>分布式系统设计</strong> - 精通CAP理论、BASE理论</li>
+<li>🎨 <strong>DDD领域驱动设计</strong> - 复杂业务领域建模专家</li>
+<li>⚡ <strong>CQRS + Event Sourcing</strong> - 读写分离和事件溯源架构</li>
+</ul>
+<h4>💾 数据库技术</h4>
+<ul>
+<li><strong>关系型数据库</strong>: MySQL 🐬、PostgreSQL 🐘、Oracle 🔶</li>
+<li><strong>NoSQL数据库</strong>: MongoDB 🍃、Cassandra 💎、HBase 📊</li>
+<li><strong>搜索引擎</strong>: Elasticsearch 🔍、Solr ☀️</li>
+</ul>
+<h4>🚀 运维与部署</h4>
+<ul>
+<li><strong>容器化</strong>: Docker 🐳、Kubernetes ⚙️、Helm 🎯</li>
+<li><strong>CI/CD</strong>: Jenkins 🔧、GitLab CI 🦊、GitHub Actions 🐙</li>
+<li><strong>监控</strong>: Prometheus 📊、Grafana 📈、ELK Stack 📋</li>
+<li><strong>服务治理</strong>: Istio 🌊、Consul 🏛️、Nacos 🎭</li>
+</ul>
+<h3>💡 核心专业技能</h3>
+<blockquote>
+<p><strong>🎓 计算机科学基础</strong>: 扎实的理论基础 + 丰富的实践经验</p>
+</blockquote>
+<h4>🧮 数据结构与算法</h4>
+<ul>
+<li><strong>高级数据结构</strong>:</li>
+<li>🌳 红黑树、B+树 - 高效查找与存储</li>
+<li>🎯 布隆过滤器 - 大数据去重与过滤</li>
+<li>🪜 跳表 - 概率性数据结构专家</li>
+<li><strong>算法设计</strong>:</li>
+<li>⚡ 动态规划 - 复杂问题优化求解</li>
+<li>🎯 贪心算法 - 局部最优策略</li>
+<li>🕸️ 图算法 - 复杂网络关系处理</li>
+<li>🔤 字符串算法 - 文本处理与匹配</li>
+<li><strong>复杂度分析</strong>: 时间复杂度和空间复杂度深度优化</li>
+</ul>
+<h4>🎨 设计模式 (23种GOF设计模式)</h4>
+<ul>
+<li><strong>🏗️ 创建型模式</strong>: 单例、工厂、建造者、原型、抽象工厂</li>
+<li><strong>🔧 结构型模式</strong>: 适配器、装饰器、代理、组合、桥接</li>
+<li><strong>⚡ 行为型模式</strong>: 观察者、策略、命令、模板方法、责任链</li>
+</ul>
+<h4>🌐 计算机网络</h4>
+<ul>
+<li><strong>协议深度理解</strong>:</li>
+<li>🌐 TCP/IP协议栈完整掌握</li>
+<li>🔒 HTTP/HTTPS、WebSocket协议实践</li>
+<li><strong>网络编程</strong>:</li>
+<li>🔌 Socket、NIO、Epoll高性能网络模型</li>
+<li><strong>网络安全</strong>:</li>
+<li>🛡️ SSL/TLS、OAuth2.0、JWT安全认证</li>
+</ul>
+<h4>⚡ 性能优化</h4>
+<ul>
+<li><strong>🎯 JVM调优</strong>: GC算法选择、内存模型优化、性能分析工具使用</li>
+<li><strong>💾 数据库优化</strong>: 索引设计、查询优化、分库分表策略</li>
+<li><strong>🚀 缓存策略</strong>: 多级缓存架构、缓存穿透/雪崩防护</li>
+<li><strong>🔥 高并发处理</strong>: 线程池、连接池、限流降级机制</li>
+</ul>
+<hr>
+<h2>💼 工作经历 (10多年后端开发经验)</h2>
+<blockquote>
+<p><strong>🎆 职业亮点</strong>: 从早期的后端开发工程师成长为现在的高级系统分析师，经历了多个大型项目的技术演进与架构升级</p>
+</blockquote>
+<hr>
+<h3>🎆 <strong>高级系统分析师</strong> | 万恒科技</h3>
+<p><strong>📅 任职时间</strong>: <em>2020.03 - 2026.08 (6年)</em> | <strong>💼 职位级别</strong>: 高级 | <strong>👥 团队规模</strong>: 8人</p>
+<blockquote>
+<p><strong>🎯 核心使命</strong>: 负责公司核心电商平台的架构设计与技术管理，支撑日均百万级用户访问</p>
+</blockquote>
+<h4>🔥 主要职责</h4>
+<table>
+<thead>
+<tr>
+<th>🎯 领域</th>
+<th>📝 具体职责</th>
+<th>📈 成果指标</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>架构设计</strong></td>
+<td>负责核心电商平台后端架构设计</td>
+<td>支撑日均百万级用户访问</td>
+</tr>
+<tr>
+<td><strong>团队管理</strong></td>
+<td>带领8人后端团队，制定技术路线图</td>
+<td>团队效率提升50%+</td>
+</tr>
+<tr>
+<td><strong>性能优化</strong></td>
+<td>主导系统性能优化和架构升级</td>
+<td>响应时间优化65%，并发提升3倍</td>
+</tr>
+<tr>
+<td><strong>技术创新</strong></td>
+<td>推动微服务架构改造和容器化部署</td>
+<td>实现服务拆分30+个微服务</td>
+</tr>
+</tbody>
+</table>
+<h4>🏆 关键成果</h4>
+<ul>
+<li>🎉 <strong>业务影响</strong>: 电商平台核心交易系统重构，<strong>页面加载速度提升60%</strong>，<strong>用户转化率提升25%</strong></li>
+<li>🚀 <strong>运维优化</strong>: 建立完整DevOps体系，<strong>代码部署效率提升80%</strong>，<strong>线上故障率降低90%</strong></li>
+<li>⚡ <strong>技术升级</strong>: Spring Boot + Netty + Redis Cluster技术栈，<strong>系统吞吐量提升40%</strong></li>
+<li>📊 <strong>质量提升</strong>: 建立代码质量管控体系，<strong>单元测试覆盖率从30%提升到95%</strong></li>
+</ul>
+<p><strong>💻 技术栈</strong>: <code>Spring Boot</code> • <code>Netty</code> • <code>MySQL Cluster</code> • <code>Redis Cluster</code> • <code>RocketMQ</code> • <code>Docker</code> • <code>Kubernetes</code></p>
+<hr>
+<h3>🌟 <strong>高级后端工程师</strong> | 移付宝</h3>
+<p><strong>📅 任职时间</strong>: <em>2014.07 - 2020.02 (6年)</em> | <strong>🎯 业务领域</strong>: 企业级SaaS平台 | <strong>👥 服务对象</strong>: 200+企业客户</p>
+<blockquote>
+<p><strong>🎯 核心使命</strong>: 负责B端管理系统的核心模块开发与性能优化，提升企业客户的使用体验</p>
+</blockquote>
+<h4>🔥 主要职责</h4>
+<ul>
+<li>🏗️ <strong>系统开发</strong>: 参与企业级SaaS管理平台全栈开发</li>
+<li>⚡ <strong>性能优化</strong>: 专注于系统性能和构建流程优化</li>
+<li>🔧 <strong>组件开发</strong>: 设计开发通用组件库，提升团队协作效率</li>
+</ul>
+<h4>🏆 关键成果</h4>
+<ul>
+<li>🚀 <strong>构建优化</strong>: Maven构建时间从<strong>15分钟缩短到3分钟</strong>，显著提升开发体验</li>
+<li>🧩 <strong>组件化</strong>: 开发企业级通用组件库<strong>(30+组件)</strong>，团队开发效率提升30%</li>
+<li>💾 <strong>缓存优化</strong>: 实现分布式缓存方案，系统查询性能提升50%</li>
+<li>🧪 <strong>测试体系</strong>: 建立自动化测试框架，代码质量显著提升</li>
+</ul>
+<p><strong>💻 技术栈</strong>: <code>Spring Cloud</code> • <code>MyBatis-Plus</code> • <code>MySQL</code> • <code>Redis</code> • <code>Elasticsearch</code> • <code>Jenkins</code></p>
+<hr>
+<h2>🎓 教育背景</h2>
+<h3>🏛️ <strong>计算机科学与技术学士学位</strong></h3>
+<blockquote>
+<p><strong>📚 学术基础</strong>: 扎实的计算机科学理论基础，为后续技术发展奠定坚实根基</p>
+</blockquote>
+<h4>📖 主修课程</h4>
+<table>
+<thead>
+<tr>
+<th>📚 课程类别</th>
+<th>🔬 具体课程</th>
+<th>💡 核心收获</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>算法基础</strong></td>
+<td>数据结构与算法</td>
+<td>建立扎实的编程思维和算法设计能力</td>
+</tr>
+<tr>
+<td><strong>系统原理</strong></td>
+<td>计算机网络、操作系统</td>
+<td>深入理解计算机系统底层原理</td>
+</tr>
+<tr>
+<td><strong>数据管理</strong></td>
+<td>数据库系统</td>
+<td>掌握数据建模和查询优化技能</td>
+</tr>
+</tbody>
+</table>
+<h4>🎯 毕业设计</h4>
+<p><strong>📋 项目名称</strong>: 《基于Java的分布式文件管理系统》
+<strong>🏆 获奖情况</strong>: 获得优秀毕业设计奖
+<strong>💡 技术亮点</strong>: 早期接触分布式系统设计，为职业发展打下技术基础</p>
+<h4>🏅 专业认证</h4>
+<ul>
+<li>🔐 <strong>Oracle OCP数据库管理员认证</strong> - 数据库专业技能认证</li>
+<li>📊 <strong>CMMI Certified Associate</strong> - 软件成熟度模型认证</li>
+<li>👨‍💼 <strong>PMP项目管理专业人士认证</strong> - 项目管理专业能力认证</li>
+</ul>
+<hr>
+<h2>🏆 核心项目经历</h2>
+<blockquote>
+<p><strong>🌟 项目亮点</strong>: 主导了多个大型项目的架构设计与技术实现，从传统单体应用到现代化微服务架构的完整演进</p>
+</blockquote>
+<hr>
+<h3>💬 <strong>高并发即时通讯(IM)系统</strong></h3>
+<p><strong>📅 项目周期</strong>: <em>2024.11 - 2025.08</em> | <strong>👨‍💼 担任角色</strong>: 负责人 </p>
+<blockquote>
+<p><strong>🎯 项目使命</strong>: 构建支撑十万级用户同时在线的即时通讯系统，覆盖单聊、群聊、AI智能助手全场景</p>
+</blockquote>
+<h4>🏗️ 技术架构</h4>
+<p><strong>💻 核心技术栈</strong>: <code>C++/brpc</code> + <code>Java Netty Gateway</code> + <code>EMQX MQTT</code> + <code>Redis</code> + <code>MySQL</code> + <code>JWT</code> + <code>SSE</code></p>
+<h4>🧩 核心模块</h4>
+<table>
+<thead>
+<tr>
+<th>🎯 模块名称</th>
+<th>📝 功能描述</th>
+<th>📊 技术亮点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>消息核心服务</strong></td>
+<td>C++ brpc 实现单聊/群聊收发、群组管理、好友关系</td>
+<td>单机长连接5万+，端到端消息P99延迟&lt;300ms</td>
+</tr>
+<tr>
+<td><strong>接入网关</strong></td>
+<td>Java Netty API Gateway，统一鉴权、路由与限流</td>
+<td>uid由JWT服务端注入，敏感标识不出现在URL</td>
+</tr>
+<tr>
+<td><strong>消息推送通道</strong></td>
+<td>EMQX MQTT pub/sub 替代轮询推送</td>
+<td>双通道保活，弱网重连秒级恢复</td>
+</tr>
+<tr>
+<td><strong>高频计数缓冲</strong></td>
+<td>浏览/点赞计数 Redis 缓冲 + 定时批量刷库</td>
+<td>DB写入压力降低90%，容忍秒级延迟</td>
+</tr>
+<tr>
+<td><strong>AI 智能助手</strong></td>
+<td>SSE流式输出，群聊@AI 自动入群应答</td>
+<td>三层防护：服务层禁言/踢人 + 网关403 + 前端隐藏</td>
+</tr>
+<tr>
+<td><strong>审计日志</strong></td>
+<td>双网关异步写入，7天全量留存</td>
+<td>IP五级提取链，IPv4优先，覆盖登出/公开路径</td>
+</tr>
+</tbody>
+</table>
+<h4>🎉 项目成果</h4>
+<ul>
+<li>🚀 <strong>并发能力</strong>: 集群稳定支撑<strong>10万+同时在线</strong>，高峰消息吞吐<strong>1万+ QPS</strong></li>
+<li>⚡ <strong>延迟表现</strong>: 端到端消息P99延迟<strong>&lt;300ms</strong>，弱网重连<strong>&lt;2s</strong></li>
+<li>🛡️ <strong>写缓冲</strong>: 高频计数Redis缓冲批量刷入，高峰期DB压力<strong>下降90%</strong></li>
+<li>🔐 <strong>安全合规</strong>: 密码错误限流防爆破，好友申请去重+7天过期策略</li>
+</ul>
+<h4>🏅 个人贡献</h4>
+<ul>
+<li>🎨 主导整体架构设计（C++核心 + Java网关双语言栈选型）</li>
+<li>💻 开发 C++ 消息核心与群组管理（禁言/踢人/全员禁言服务层强校验）</li>
+<li>⚡ 设计 Redis 缓冲批量写与 EMQX 推送链路，解决高频写瓶颈</li>
+<li>🤖 设计 AI 助手集成方案与三层防滥用防护体系</li>
+</ul>
+<hr>
+<h3>📺 <strong>直播视频平台（Web多端）</strong></h3>
+<p><strong>📅 项目周期</strong>: <em>2025.09 - 2026.08</em> | <strong>👨‍💼 担任角色</strong>: 负责人</p>
+<blockquote>
+<p><strong>🎯 项目使命</strong>: 打造集直播推流、Web观看、互动聊天于一体的视频平台，覆盖 PC/iOS/Android 多端</p>
+</blockquote>
+<h4>🏗️ 技术架构</h4>
+<p><strong>💻 核心技术栈</strong>: <code>Java/Spring media-gateway</code> + <code>RTMP/HLS/HTTP-FLV</code> + <code>Caddy</code> + <code>Vue3</code> + <code>DPlayer</code> + <code>FFmpeg</code></p>
+<h4>🧩 核心模块</h4>
+<table>
+<thead>
+<tr>
+<th>🎯 模块名称</th>
+<th>📝 功能描述</th>
+<th>📊 技术亮点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>流媒体网关</strong></td>
+<td>Java/Spring 推拉流鉴权、流管理与转码调度</td>
+<td>推流回调鉴权，防盗链Token签名</td>
+</tr>
+<tr>
+<td><strong>Web播放器</strong></td>
+<td>Vue3 + DPlayer 深度定制，弹幕/清晰度切换</td>
+<td>iOS/iPad自动降级原生video，兼容性100%</td>
+</tr>
+<tr>
+<td><strong>互动聊天</strong></td>
+<td>直播间IM聊天、礼物/点赞动效</td>
+<td>复用IM系统消息通道，万人房间流畅互动</td>
+</tr>
+<tr>
+<td><strong>边缘接入</strong></td>
+<td>Caddy反向代理，HTTPS自动证书</td>
+<td>流地址与静态资源统一域名管理</td>
+</tr>
+<tr>
+<td><strong>多端适配</strong></td>
+<td>响应式布局，断点768-1366px / &lt;767px</td>
+<td>一套代码覆盖三端</td>
+</tr>
+</tbody>
+</table>
+<h4>🎉 项目成果</h4>
+<ul>
+<li>🚀 <strong>秒开优化</strong>: 首帧时间从<strong>3s降至1s内</strong>（HLS切片+预加载策略）</li>
+<li>📱 <strong>多端覆盖</strong>: Web/iOS/Android全端可用，iOS播放兼容性<strong>100%</strong></li>
+<li>💪 <strong>稳定运行</strong>: 连续直播7天无故障，支撑万人同时在线观看</li>
+<li>🎨 <strong>体验打磨</strong>: 自研播放器UI与礼物动效，渲染稳定<strong>60fps</strong></li>
+</ul>
+<h4>🏅 个人贡献</h4>
+<ul>
+<li>🎨 负责平台整体架构与流媒体链路设计</li>
+<li>💻 开发 media-gateway 鉴权与流管理服务</li>
+<li>📱 攻克 iOS/iPad 播放器兼容难题（原生video降级方案）</li>
+<li>🔧 建设自动化构建与多域名部署体系</li>
+</ul>
+<hr>
+<h2>📜 荣誉与认证</h2>
+<h3>🏆 <strong>专业奖项</strong></h3>
+<table>
+<thead>
+<tr>
+<th>📅 获奖年份</th>
+<th>🏅 奖项名称</th>
+<th>🏢 颁奖机构</th>
+<th>📝 获奖原因</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>2024</strong></td>
+<td>🥇 <strong>年度杰出员工</strong></td>
+<td>万恒科技</td>
+<td>技术创新与团队贡献</td>
+</tr>
+<tr>
+<td><strong>2023</strong></td>
+<td>🎯 <strong>技术分享最佳讲师</strong></td>
+<td>公司内部技术大会</td>
+<td>技术分享与知识传播</td>
+</tr>
+<tr>
+<td><strong>2022</strong></td>
+<td>💼 <strong>优秀项目负责人</strong></td>
+<td>万恒科技</td>
+<td>电商平台重构项目</td>
+</tr>
+</tbody>
+</table>
+<h3>📋 <strong>专业认证</strong></h3>
+<ul>
+<li>🔐 <strong>Oracle OCP数据库管理员认证</strong> <code>2013</code> - 数据库专业技能认证</li>
+<li>📊 <strong>CMMI Certified Associate</strong> <code>2016</code> - 软件成熟度模型认证</li>
+<li>👨‍💼 <strong>PMP项目管理专业人士认证</strong> <code>2018</code> - 项目管理专业能力</li>
+<li>☁️ <strong>AWS Solution Architect Associate</strong> <code>2020</code> - 云架构设计专业认证</li>
+</ul>
+<hr>
+<h2>🌐 个人作品与链接</h2>
+<blockquote>
+<p><strong>🎆 影响力</strong>: 积极在技术社区分享知识，构建个人技术品牌，帮助他人成长</p>
+</blockquote>
+<h3>📝 <strong>技术博客</strong></h3>
+<p><strong>🏠 个人博客</strong>: <a href="https://blog.lesshash.com"><code>blog.lesshash.com</code></a></p>
+<ul>
+<li>📜 <strong>内容质量</strong>: 原创技术文章<strong>50+篇</strong>，涵盖架构设计、性能优化、Java进阶</li>
+<li>🔥 <strong>传播影响</strong>: 月均访问量<strong>10万+</strong>，技术文章被多个技术社区转载</li>
+<li>🎯 <strong>专业领域</strong>: 分布式系统、微服务架构、JVM性能调优、高并发编程</li>
+</ul>
+<hr>
+<h2>💡 综合评价</h2>
+<blockquote>
+<p><strong>🎆 核心价值</strong>: 融合深度技术专业知识、丰富管理经验和出色沟通能力，致力于推动技术创新与业务增长</p>
+</blockquote>
+<h3>🎯 <strong>核心竞争力与优势</strong></h3>
+<h4>🏅 技术深度与广度</h4>
+<table>
+<thead>
+<tr>
+<th>📊 能力维度</th>
+<th>📈 专业程度</th>
+<th>📝 具体体现</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>架构设计</strong></td>
+<td>⭐⭐⭐⭐⭐</td>
+<td>10多年经验，从单体到分布式，从传统到云原生</td>
+</tr>
+<tr>
+<td><strong>技术广度</strong></td>
+<td>⭐⭐⭐⭐⭐</td>
+<td>精通Java/C++双语言栈，熟悉前沿技术</td>
+</tr>
+<tr>
+<td><strong>性能优化</strong></td>
+<td>⭐⭐⭐⭐⭐</td>
+<td>深度调优经验，系统性解决复杂性能问题</td>
+</tr>
+</tbody>
+</table>
+<h4>👥 管理领导能力</h4>
+<ul>
+<li>👨‍💼 <strong>团队管理</strong>: 具备<strong>15人团队</strong>管理经验，擅长技术团队建设和人才培养</li>
+<li>📋 <strong>项目管理</strong>: <strong>PMP认证</strong>持有者，具备大型项目全生命周期管理能力</li>
+<li>🎯 <strong>价值创造</strong>: 善于将技术目标与业务目标结合，创造实际商业价值</li>
+</ul>
+<h4>🎆 软技能与影响力</h4>
+<ul>
+<li>🤝 <strong>跨部门协作</strong>: 优秀的跨团队协作能力，与产品、运营等部门高效配合</li>
+<li>📚 <strong>持续学习</strong>: 对新技术保持高度敏感，快速学习和应用新技术</li>
+</ul>
+<h3>🚀 <strong>职业愿景与目标</strong></h3>
+<blockquote>
+<p><strong>🎆 未来规划</strong>: 致力于成为技术架构领域的专家，在更大的技术平台上发挥架构设计和团队管理能力</p>
+</blockquote>
+<h4>🎯 短期目标 (1-2年)</h4>
+<ul>
+<li>🚀 <strong>技术提升</strong>: 深入研究云原生技术，掌握Kubernetes、Istio等新一代技术栈</li>
+<li>👥 <strong>团队扩展</strong>: 带领更大规模的技术团队，建立完善的技术体系和文化</li>
+<li>🌐 <strong>影响力拓展</strong>: 在更多技术平台和社区分享知识，扩大技术影响力</li>
+</ul>
+<h4>🎆 长期愿景 (3-5年)</h4>
+<ul>
+<li>🏆 <strong>技术专家</strong>: 成为分布式系统架构领域的权威专家，引领技术发展方向</li>
+<li>💼 <strong>价值创造</strong>: 推动技术创新，为企业创造更大的商业价值和竞争优势</li>
+<li>🤝 <strong>生态建设</strong>: 与优秀的工程师们一起解决更具挑战性的技术问题</li>
+</ul>
+<hr>
+<h2>📞 联系方式与期望</h2>
+<blockquote>
+<p><strong>🎆 简历更新</strong>: <em>2026年8月</em> | <strong>💼 合作态度</strong>: 期待加入有技术追求的优秀团队</p>
+</blockquote>
+<h3>📧 直接联系</h3>
+<ul>
+<li><strong>📧 邮箱</strong>: u30337@gmail.com</li>
+<li><strong>📱 微信</strong>: Bevan（备注：招聘/技术交流）</li>
+<li><strong>📍 地点</strong>: 北京 · 可远程协作</li>
+</ul>
+<h3>💰 薪资期望</h3>
+<ul>
+<li><strong>💼 期望薪资</strong>: 面议（根据具体职位和公司规模灵活调整）</li>
+<li><strong>🕰️ 入职时间</strong>: 随时可以开始，最多2周交接期</li>
+<li><strong>🎆 合作方式</strong>: 全职优先，也可考虑技术顾问或兼职合作</li>
+</ul></body>
+</html>
