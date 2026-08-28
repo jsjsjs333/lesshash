@@ -185,7 +185,8 @@ keywords: ["简历", "AI应用开发", "LLM", "Agent", "RAG", "LangChain", "大�
 
 ## 📜 专业认证
 
-- 🔐 **Oracle OCP数据库管理员认证** `2013` - 数据库专业技能认证
+- 📊 **CMMI Certified Associate** `2016` - 软件成熟度模型认证
+- 👨‍💼 **PMP项目管理专业人士认证** `2018` - 项目管理专业能力
 
 ---
 
