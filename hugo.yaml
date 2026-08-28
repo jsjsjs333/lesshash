@@ -136,8 +136,8 @@ params:
     buttons:
       - name: 📚 技术文章
         url: posts
-      - name: 📋 个人简历
-        url: resume
+      # - name: 📋 个人简历   # 暂时隐藏 2026-08-28，恢复时取消注释
+      #   url: resume
       - name: 🏷️ 文章标签
         url: tags
       - name: 📂 文章分类

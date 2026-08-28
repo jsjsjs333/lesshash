@@ -1,7 +1,7 @@
 ---
 title: "个人简历"
 date: 2025-01-18
-draft: false
+draft: true
 layout: "single"
 url: "/resume/"
 description: "Bevan的个人简历 - 高级系统分析师，10多年后端开发经验，精通Java、C++和系统架构设计"
