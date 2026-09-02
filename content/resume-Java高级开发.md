@@ -16,7 +16,7 @@ keywords: ["简历", "系统分析师", "后端开发", "Java", "C++", "架构�
 
 # 🎯 Bevan
 
-> **高级系统分析师 & 资深架构专家**
+> **Java高级开发**
 > 📧 Bevan@gmail.com | 📱 138-0000-0000 | 📍 北京
 > 📝 博客: [blog.lesshash.com](https://blog.lesshash.com)
 
