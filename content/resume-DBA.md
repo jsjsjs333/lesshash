@@ -4,14 +4,14 @@ date: 2025-01-18
 draft: false
 layout: "single"
 url: "/resume-dba/"
-description: "Bevan的个人简历 - 高级MySQL DBA，10多年后端与数据库经验，精通MySQL体系结构、InnoDB引擎、高可用M-S/MGR、性能优化、备份恢复与容灾演练"
-keywords: ["简历", "DBA", "MySQL", "数据库管理员", "高可用", "MGR", "TiDB", "ELK", "性能优化", "Bevan"]
+description: "Henry的个人简历 - 高级MySQL DBA，10多年后端与数据库经验，精通MySQL体系结构、InnoDB引擎、高可用M-S/MGR、性能优化、备份恢复与容灾演练"
+keywords: ["简历", "DBA", "MySQL", "数据库管理员", "高可用", "MGR", "TiDB", "ELK", "性能优化", "Henry"]
 ---
 
-# 🎯 Bevan
+# 🎯 Henry
 
 > **高级数据库管理员 (MySQL DBA)**
-> 📧 u30337@gmail.com | 📱 微信: Bevan | 📍 北京 · 可现场办公
+> 📧 u30337@gmail.com | 📱 微信: Henry | 📍 北京 · 可现场办公
 
 ---
 
@@ -253,7 +253,7 @@ keywords: ["简历", "DBA", "MySQL", "数据库管理员", "高可用", "MGR", "
 
 ### 📧 直接联系
 - **📧 邮箱**: u30337@gmail.com
-- **📱 微信**: Bevan（备注：招聘/技术交流）
+- **📱 微信**: Henry（备注：招聘/技术交流）
 - **📍 地点**: 北京 · 可现场办公
 
 ### 💰 期望
