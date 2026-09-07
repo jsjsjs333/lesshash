@@ -1,16 +1,16 @@
 ---
-title: "个人简历-AI高级应用工程师"
+title: "个人简历-AI应用工程师"
 date: 2025-01-18
 draft: false
 layout: "single"
 url: "/resume-ai/"
-description: "Smith的个人简历 - 高级AI应用工程师，10多年Java/C++/Python后端经验，专注LLM服务化、Agent与RAG应用开发，分布式系统背景"
+description: "Smith的个人简历 - AI应用工程师，10多年Java/C++/Python后端经验，专注LLM服务化、Agent与RAG应用开发，分布式系统背景"
 keywords: ["简历", "AI应用开发", "LLM", "Agent", "RAG", "LangChain", "大模型服务化", "SSE", "分布式系统", "Smith"]
 ---
 
 # 🎯 Smith
 
-**高级AI应用工程师**
+**AI应用工程师**
 
 📧 smith778899@gmail.com ｜ ✨ 英文名：Smith ｜ 📍 北京 · 可远程/现场办公
 
