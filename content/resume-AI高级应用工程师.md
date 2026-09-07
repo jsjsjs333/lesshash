@@ -12,7 +12,7 @@ keywords: ["简历", "AI应用开发", "LLM", "Agent", "RAG", "LangChain", "大�
 
 **高级AI应用工程师**
 
-u30337@gmail.com ｜ 微信：Smith ｜ 北京 · 可远程/曼谷居家办公
+smith778899@gmail.com ｜ 微信：Smith ｜ 北京 · 可远程/曼谷居家办公
 
 ---
 
@@ -81,7 +81,7 @@ u30337@gmail.com ｜ 微信：Smith ｜ 北京 · 可远程/曼谷居家办公
 
 技术栈：Java/Spring、Python/FastAPI、C++/brpc、MySQL、Redis、EMQX、SSE
 
-### 移付宝 ｜ 后端工程师
+### 移联科技 ｜ 后端工程师
 
 2014.07 - 2020.02（6年）｜ 业务领域：企业级SaaS平台 ｜ 服务对象：200+企业客户
 
@@ -193,7 +193,7 @@ B端SaaS平台核心模块开发与数据库优化。
 
 ## 联系方式
 
-- 邮箱：u30337@gmail.com
+- 邮箱：smith778899@gmail.com
 - 微信：Smith（备注：招聘/技术交流）
 - 地点：北京 · 可远程/曼谷居家办公
 
