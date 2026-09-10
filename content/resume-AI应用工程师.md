@@ -33,14 +33,14 @@ keywords: ["简历", "AI应用工程师", "LLM", "RAG", "Agent", "LangChain", "�
 
 **工程侧**
 
-- 语言：Python（FastAPI）为主，Java（Spring Boot/Netty）与 C++（brpc）可上阵
+- 语言：Python（FastAPI）为主，Java（Spring Boot/Netty）
 - 存储/中间件：MySQL、Redis、Kafka、RocketMQ、Elasticsearch、EMQX
 - 稳定性：队列+信号量并发闸门、指数退避、多模型多 Key 热备、Token 成本核算
 - 底子：数据结构与算法、操作系统、计算机网络；Linux/Shell/Python 运维脚本
 
 **工具链**
 
-- 日常重度使用 Claude Code / Cursor 等 AI 编程工具，有实际的 Agent 搭建经验
+- 日常重度使用 Claude Code  等 AI 编程工具，有实际的 Agent 搭建经验
 
 ---
 
@@ -49,7 +49,7 @@ keywords: ["简历", "AI应用工程师", "LLM", "RAG", "Agent", "LangChain", "�
 
 ### 💬 IM 智能助手
 
-2024.11 - 2025.08 ｜ 角色：AI 功能负责人
+2024.11 - 2025.08 ｜ 角色：AI 功能实现者
 
 在即时通讯产品里落地 AI 助手，单聊直答、群聊 @触发。
 
@@ -61,7 +61,7 @@ AI 功能从 0 到 1 上线并成为日常入口；复用网关通道，业务�
 
 ### 📚 内部知识库问答
 
-2025.09 - 2026.02 ｜ 角色：独立交付
+2025.09 - 2026.02 ｜ 角色：功能实现者
 
 把规范、FAQ、运维手册做成能问答的知识库。
 
@@ -78,15 +78,15 @@ AI 功能从 0 到 1 上线并成为日常入口；复用网关通道，业务�
 
 ### 🏢 顺丰科技 ｜ 高级后端工程师（AI 方向）
 
-2020.03 - 2026.08（6 年）
+2021.03 - 2026.03（5 年）
 
 核心系统开发与架构，2024 年起牵头大模型在 IM 与直播业务落地：AI 网关、智能助手、知识库问答全部从 0 到 1 上线；制定团队 AI 接入技术规范并推广。
 
-技术栈：Java/Spring、Python/FastAPI、C++/brpc、MySQL、Redis、EMQX、SSE
+技术栈：Java/Spring、Python/FastAPI、MySQL、Redis、EMQX、SSE
 
 ### 🏢 微云科技 ｜ 后端工程师
 
-2014.07 - 2020.02（6 年）
+2014.12 - 2020.02（5 年）
 
 企业级 SaaS 平台（200+ 企业客户）核心模块开发：表结构与索引优化、SQL 审核、分布式缓存落地、通用组件库建设。
 
